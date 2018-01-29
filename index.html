@@ -21,8 +21,12 @@
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    
 
   </head>
 
@@ -61,7 +65,7 @@
             <img src="http://res.cloudinary.com/lara-cloud1/image/upload/c_scale,h_766/v1517108096/phoneloginsmall_trqjhe.png" alt="">
 
           </div>
-          <div class="col-lg-9 mx-auto">
+          <div class="col-lg-9 mx-auto ">
             <div class="invisible">
               <img src="http://res.cloudinary.com/lara-cloud1/image/upload/v1511559913/foxicon_xggtjr.png" alt="">
             </div>
@@ -127,7 +131,7 @@
             <div class="service-box mt-5 mx-auto">
             <img class="text-primary mb-3 sr-icons railsimg" src="http://res.cloudinary.com/lara-cloud1/image/upload/v1513556143/imageedit_2_4509629506_k8r4tl.png" alt="">
               <h3 class="mb-3">Ruby on Rails</h3>
-<p class="text-muted mb-0">Ruby on Rails for our backend keeps things simple and versatile, allowing new features to be easily added.</p>
+              <p class="text-muted mb-0">Ruby on Rails for our backend keeps things simple and versatile, allowing new features to be easily added.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -142,7 +146,22 @@
     </section>
 
     <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
+      <!-- <button id="prevarrow" type="button" class="slick-prev">Previous</button> -->
+      <div class="wrapper-screenshots">
+        <div class="screenshots">
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/1-Homepage.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/2-Login.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/3-UserSettings.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/4-ActivityMap.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/5-Sidebar.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/6-Redbird.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/7-SuperSmashSundays.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/8-OnTheMap.PNG" alt=""></div>
+          <div><img class="mx-auto" src="/home/francis-lara1/Desktop/ShowMeYourMovesDemo/screenshots/9-Host.PNG" alt=""></div>
+        </div>
+      </div>
+      <!-- <button id="nextarrow" type="button" class="slick-next">Next</button> -->
+      <!-- <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-4">
             <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
@@ -190,19 +209,46 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Test out Show Me Your Moves below!</h2>
-<iframe src="https://appetize.io/embed/angjjwadfy91ewb4mknwwjfyjr?device=iphone6&scale=75&autoplay=false&orientation=portrait&deviceColor=black"
-  width="315px" height="652px" frameborder="0" scrolling="no"></iframe>
-  
-</div>
+      <div class="container text-center mx-auto">
+        <h1 class="headerr mb-5 pb-5">See it in action below!</h2>
+<!-- <iframe src="https://appetize.io/embed/angjjwadfy91ewb4mknwwjfyjr?device=iphone6&scale=75&autoplay=false&orientation=portrait&deviceColor=black"
+  width="315px" height="652px" frameborder="0" scrolling="no"></iframe> -->
+  <div class="row">
+    <div class="col-lg-5 mx-auto p-0 mb-5">
+      <img src="gif/login_video.gif" alt="">
+    </div>
+    <div class="col-lg-7 mx-auto mb-5 centertext"> 
+<h1 class="text-center alittlesmaller"> Login however you'd like!</h1>
+    </div>
+    <div class="col-lg-7 mx-auto mb-5 centertext">
+<h1 class="text-center alittlesmaller">Find local players or events!</h1>
+      </div>
+    <div class="col-lg-5 mx-auto p-0 mb-5">
+      <img src="gif/find_local_player_or_event.gif" alt="">
+    </div>
+      <div class="col-lg-5 mx-auto p-0 mb-5">
+          <img src="gif/put_yourself_on_the_map.gif" alt="">
+      </div>
+      <div class="col-lg-7 mx-auto mb-5 centertext">
+<h1 class="text-center alittlesmaller">Put yourself on the map!</h1>
+        </div>
+        <div class="col-lg-7 mx-auto mb-5 centertext">
+<h1 class="text-center alittlesmaller">Host an event!</h1>
+          </div>
+        <div class="col-lg-5 mx-auto p-0 mb-5">
+          <img src="gif/host_event.gif" alt="">
+  </div>
+    
+  </div>
+
+  </div>
 <div class="container text-center">
 
-  <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://github.com/Ethan-B123/ShowMeYourMoves/"><i class="fa fa-github" aria-hidden="true"></i>   Github</a>
+  <a class="btn btn-primary btn-xl js-scroll-trigger mt-4" href="https://github.com/Ethan-B123/ShowMeYourMoves/"><i class="fa fa-github" aria-hidden="true"></i>   Github</a>
 </div>
     </section>
 
@@ -259,6 +305,24 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
+    <!-- Slick -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.screenshots').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: true,
+          dots: true,
+        });
+      });
+    </script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
   </body>
 
 </html>
