@@ -375,8 +375,9 @@ header.masthead p {
 }
 
 .slick-next:before, .slick-prev:before {
-  color: black;
+  color: #27033E;
   font-size: 33px;
+  transition: opacity 200ms ease-in-out;
 }
 
 .slick-next, .slick-prev {
@@ -394,9 +395,21 @@ header.masthead p {
 
 .headerr {
   font-size: 3.5rem;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .alittlesmaller {
-  font-size: 2.3rem;
+  font-size: 1.65rem;
+}
+
+.slick-next:active:before, .slick-prev:active:before {
+  opacity: .4;
+}
+
+#portfolio, #contact {
+  background-color: #6b6b6b21;
+}
+
+#github {
+  background-color: white;
 }
