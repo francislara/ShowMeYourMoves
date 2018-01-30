@@ -413,3 +413,7 @@ header.masthead p {
 #github {
   background-color: white;
 }
+
+.smallergif {
+  max-height: 70vh;
+}
